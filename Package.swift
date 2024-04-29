@@ -40,7 +40,8 @@ let package = Package(
       name: "GTMAppAuth",
       dependencies: [
         .product(name: "GTMSessionFetcherCore", package: "gtm-session-fetcher"),
-        .product(name: "AppAuthCore", package: "AppAuth-iOS")
+        .product(name: "AppAuthCore", package: "AppAuth-iOS"),
+        .product(name: "AppAuth", package: "AppAuth-iOS")
       ],
       path: "GTMAppAuth/Sources",
       resources: [.copy("Resources/PrivacyInfo.xcprivacy")],
